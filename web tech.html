@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>table 1</h1>
+    <table border="2">
+        <tr>
+           <th> invensions</th>
+           <th>year</th>
+           <th>successful</th> 
+        </tr>
+        <tr>
+            <td>light</td>
+            <td>1879
+            </td>
+            <td>99%</td>
+        </tr>
+        <tr>
+            <td>fan</td>
+            <td>1882</td>
+            <td>85%</td>
+        </tr>
+        <tr>
+            <td>tv</td>
+            <td>1926</td>
+            <td>85%</td>
+        </tr>
+        <tr>
+            <td>car</td>
+            <td>1886</td>
+            <td>91%</td>
+        </tr>
+
+    </table>
+    <h1>table with colspan</h1>
+    <table border="2">
+        <tr>
+           <th colspan="2">invensions and year</th>
+           <th>successful</th> 
+        </tr>
+        <tr>
+            <td>light</td>
+            <td>1879
+            </td>
+            <td>99%</td>
+        </tr>
+        <tr>
+            <td>fan</td>
+            <td>1882</td>
+            <td>85%</td>
+        </tr>
+        <tr>
+            <td>tv</td>
+            <td>1926</td>
+            <td>85%</td>
+        </tr>
+        <tr>
+            <td>car</td>
+            <td>1886</td>
+            <td>91%</td>
+        </tr>
+    </table>
+    <h1>table in rowspan</h1>
+    <table border="3" >
+        <tr>
+           <th> invensions</th>
+           <th>year</th>
+           <th>successful</th> 
+        </tr>
+        <tr>
+            <td>light</td>
+            <td>1879
+            </td>
+            <td>99%</td>
+        </tr>
+        <tr>
+            <td>fan</td>
+            <td>1882</td>
+            <td rowspan="2">85%</td>
+        </tr>
+        <tr>
+            <td>tv</td>
+            <td>1926</td>
+        </tr>
+        <tr>
+            <td>car</td>
+            <td>1886</td>
+            <td>91%</td>
+        </tr>
+        </table>
+        <h1>with both row and column span in same cell</h1>
+        <table border="3" >
+            <tr><th colspan="3">invensition</th></tr>
+            <tr>
+               <th> invensions</th>
+               <th>year</th>
+               <th>successful</th> 
+            </tr>
+            <tr>
+                <td>light</td>
+                <td>1879
+                </td>
+                <td>99%</td>
+            </tr>
+            <tr>
+                <td>fan</td>
+                <td rowspan="2" colspan="2">1882&85%</td>
+            </tr>
+            <tr>
+                <td>tv</td>
+           </tr>
+            <tr>
+                <td>car</td>
+                <td>1886</td>
+                <td>91%</td>
+            </tr>
+
+            </table>
+            <h1>table 2 with column and rowspan</h1>
+            <table border="3" >
+                <tr>
+                   <th colspan="3">invensition year and sucessrate</th> 
+                </tr>
+                <tr>
+                    <td>light</td>
+                    <td>1879
+                    </td>
+                    <td>99%</td>
+                </tr>
+                <tr>
+                    <td>fan</td>
+                    <td>1882</td>
+                    <td rowspan="2">85%</td>
+                </tr>
+                <tr>
+                    <td>tv</td>
+                    <td>1926</td>
+                </tr>
+                <tr>
+                    <td>car</td>
+                    <td>1886</td>
+                    <td>91%</td>
+                </tr>
+                </table>
+</body>
+</html>
